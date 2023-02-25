@@ -1,0 +1,76 @@
+@media (max-width: 375px) {
+    main {
+        flex-direction: column;
+    }
+
+    .background, .form {
+        width: 100% !important;
+    }
+
+    .background {
+        height: 28% !important;
+    }
+
+    .form {
+        height: 70% !important;
+    }
+
+    .card {
+        width: 260px !important;
+    }
+
+    .card-front {
+        top: 60% !important;
+        left: 10% !important;
+        z-index: 2;
+    }
+
+    .card-back {
+        top: -83% !important;
+        left: 25% !important;
+    }
+
+    .span-card {
+        font-size: 9px !important;
+    }
+
+    .number-card {
+        font-size: 18px !important;
+        left: 5%;
+        width: 100%;
+    }
+
+    .name-card {
+        width: 100%;
+        left: 5%;
+    }
+
+    //Form
+
+    .form {
+        margin-top: 100px;
+
+        form {
+            margin: 0 !important;
+            width: 80% !important;
+            margin-bottom: 10px !important;
+        }
+    }
+
+    .completed {
+        width: 100% !important;
+        .box-completed {
+            margin-left: 0 !important;
+            width: 100% !important;
+
+            img {
+                width: 80px !important;
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
