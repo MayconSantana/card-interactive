@@ -74,3 +74,9 @@
         }
     }
 }
+
+@media (min-height: 650px) and (max-width: 835px) {
+    .card-back {
+        top: -20% !important;
+    }
+}
