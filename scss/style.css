@@ -63,6 +63,9 @@
   .card-back {
     top: -20% !important;
   }
+  .form {
+    margin-top: -150px;
+  }
 }
 * {
   margin: 0;
